@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ABS" xml:space="preserve">
+    <value>Return the absolute value of x.</value>
+  </data>
+  <data name="ADDDAYS" xml:space="preserve">
+    <value>Add x days to the provided date, use a negative number to subtract.</value>
+  </data>
+  <data name="ADDMONTHS" xml:space="preserve">
+    <value>Add x months to the provided date, use a negative number to subtract.</value>
+  </data>
+  <data name="ADDYEARS" xml:space="preserve">
+    <value>Add x years to the provided date, use a negative number to subtract.</value>
+  </data>
+  <data name="AND" xml:space="preserve">
+    <value>Return true if both expr1 and expr2 are true.</value>
+  </data>
+  <data name="CONCAT" xml:space="preserve">
+    <value>Combines two strings, works the same as the + operator for strings.  However if both parameters are numbers, CONCAT will force the numbers to be treated as strings and joined together, while the + operator will add numbers.</value>
+  </data>
+  <data name="COS" xml:space="preserve">
+    <value>Returns the cosine of x.</value>
+  </data>
+  <data name="DATE" xml:space="preserve">
+    <value>Returns a date created using the year, month, and day values.</value>
+  </data>
+  <data name="DATEDIFF" xml:space="preserve">
+    <value>The number of days difference between date 2 and date 1. Always returns a value measured in whole days.</value>
+  </data>
+  <data name="DAY" xml:space="preserve">
+    <value>Returns the numeric days portion of a date.</value>
+  </data>
+  <data name="FORMATNUMBER" xml:space="preserve">
+    <value>Converts a number to a string using the provided format. 0 = Zero placeholder, # = digit placeholder.  Example #,##0.00 will format a number to always have two decimal places and will use a comma as a thousands separator.</value>
+  </data>
+  <data name="IF" xml:space="preserve">
+    <value>Performs an If operation.  If expr evaluates to true, then trueValue is returned, else falseValue is returned.</value>
+  </data>
+  <data name="ISDATE" xml:space="preserve">
+    <value>Returns true if value is a valid date.</value>
+  </data>
+  <data name="ISNOTNULL" xml:space="preserve">
+    <value>Returns true if expr is not null</value>
+  </data>
+  <data name="ISNULL" xml:space="preserve">
+    <value>Returns true if expr is null</value>
+  </data>
+  <data name="ISNUMBER" xml:space="preserve">
+    <value>Returns true if value is a valid number.</value>
+  </data>
+  <data name="LEFT" xml:space="preserve">
+    <value>Return the left most len characters from the string s.</value>
+  </data>
+  <data name="LENGTH" xml:space="preserve">
+    <value>Returns the length of string s.</value>
+  </data>
+  <data name="LOOKUP" xml:space="preserve">
+    <value>Lookup table function.  Looks for the value in lookup table, if the lookup table exists and value is found, the lookup result is returned.  If the table does not exist or value is not found, then default is returned.</value>
+  </data>
+  <data name="LOWER" xml:space="preserve">
+    <value>Convert entire string to lower case letters.</value>
+  </data>
+  <data name="MAX" xml:space="preserve">
+    <value>Returns the larger of two numbers x and y.</value>
+  </data>
+  <data name="MIN" xml:space="preserve">
+    <value>Returns the smaller of two numbers x and y.</value>
+  </data>
+  <data name="MONTH" xml:space="preserve">
+    <value>Returns the numeric months portion of a date.</value>
+  </data>
+  <data name="op_Addition" xml:space="preserve">
+    <value>Adds two numbers or combines two strings into a single string.</value>
+  </data>
+  <data name="op_Division" xml:space="preserve">
+    <value>Division operation.  May use ÷ or / symbols to indicate division.</value>
+  </data>
+  <data name="op_Equal" xml:space="preserve">
+    <value>Compares two values and returns true if both are equal.</value>
+  </data>
+  <data name="op_GreaterThan" xml:space="preserve">
+    <value>Compares two values and returns true if the first value is larger than the second value.</value>
+  </data>
+  <data name="op_LessThan" xml:space="preserve">
+    <value>Compares two values and returns true if the first value is smaller than the second value.</value>
+  </data>
+  <data name="op_Multiplication" xml:space="preserve">
+    <value>Mulitplication</value>
+  </data>
+  <data name="op_NotEqual" xml:space="preserve">
+    <value>Returns true if two values are not equal.  May use the following symbols to indicate not equal:  ≠, &lt;&gt;, !=</value>
+  </data>
+  <data name="op_Power" xml:space="preserve">
+    <value>Exponent.</value>
+  </data>
+  <data name="op_Subtraction" xml:space="preserve">
+    <value>Subtraction.</value>
+  </data>
+  <data name="OR" xml:space="preserve">
+    <value>Return true if either expr1 or expr2 or both are true.</value>
+  </data>
+  <data name="REPLACE" xml:space="preserve">
+    <value>Replaces the characters oldValue with newValue within the string s.</value>
+  </data>
+  <data name="RIGHT" xml:space="preserve">
+    <value>Return the right most len characters from the string str.</value>
+  </data>
+  <data name="ROUND" xml:space="preserve">
+    <value>Rounds x to the nearest number of specified number of digits.  Specify d as 0 to round to the nearest whole number.</value>
+  </data>
+  <data name="SIN" xml:space="preserve">
+    <value>Returns the sine of x.</value>
+  </data>
+  <data name="SQRT" xml:space="preserve">
+    <value>Returns the square root of x.</value>
+  </data>
+  <data name="SUBSTRING" xml:space="preserve">
+    <value>Returns a portion of the string s, starting at position x and containing y characters.  The first character in the string is position 0. </value>
+  </data>
+  <data name="TODAY" xml:space="preserve">
+    <value>Returns today's date.  Date is based on the timezone of the computer running the calculation.</value>
+  </data>
+  <data name="TRIM" xml:space="preserve">
+    <value>Trims all leading and trailing spaces off of string s.</value>
+  </data>
+  <data name="UnaryMinus" xml:space="preserve">
+    <value>A negative sign in front of a number.</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>An unknown operation.</value>
+  </data>
+  <data name="UPPER" xml:space="preserve">
+    <value>Convert entire string to upper case letters.</value>
+  </data>
+  <data name="YEAR" xml:space="preserve">
+    <value>Returns the numeric years portion of a date.</value>
+  </data>
+  <data name="NOT" xml:space="preserve">
+    <value>Returns True when the operand is False or False when the operand is True.</value>
+  </data>
+</root>
